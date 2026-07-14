@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Articles | Chronicles of Power</title>
+  <meta name="description" content="Complete archive of history articles on politics, civil wars, and minerals.">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-dark text-stone-100 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-dark/90 backdrop-blur-md border-b border-amber-900/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="images/logo.jpg" alt="Logo" class="h-10 w-10 rounded-full object-cover border border-amber-700/50">
+          <span class="hidden sm:block text-lg font-semibold text-amber-400">Chronicles of Power</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="index.html" class="text-stone-300 hover:text-amber-400">Home</a>
+          <a href="articles.html" class="text-amber-400">All Articles</a>
+          <a href="about.html" class="text-stone-300 hover:text-amber-400">About</a>
+        </div>
+        <button id="menu-btn" class="md:hidden p-2 text-stone-300">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+    <!-- Page Header -->
+  <header class="pt-28 pb-10 border-b border-amber-900/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-amber-500/80 text-xs tracking-widest uppercase mb-3">Archive</p>
+      <h1 class="text-4xl sm:text-5xl font-bold text-stone-100 mb-4">All Articles</h1>
+      <p class="text-stone-400 max-w-2xl text-lg">
+        A growing collection of long-form historical writing on the intersection of political power, internal conflict, and mineral wealth.
+      </p>
+    </div>
+  </header>
+
+  <!-- Category Filters -->
+  <div class="sticky top-16 z-40 bg-dark/95 backdrop-blur border-b border-amber-900/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex gap-3 py-4 overflow-x-auto text-sm font-medium">
+        <a href="#all" class="px-4 py-1.5 rounded-full bg-amber-800/40 text-amber-200 border border-amber-700/50">All</a>
+        <a href="#politics" class="px-4 py-1.5 rounded-full text-stone-400 hover:text-amber-300">Politics</a>
+        <a href="#civil-wars" class="px-4 py-1.5 rounded-full text-stone-400 hover:text-amber-300">Civil Wars</a>
+        <a href="#minerals" class="px-4 py-1.5 rounded-full text-stone-400 hover:text-amber-300">Minerals</a>
+      </div>
+    </div>
+  </div>
+    <!-- Articles List -->
+  <main class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+
+      <!-- Politics -->
+      <section id="politics">
+        <h2 class="text-2xl font-bold text-stone-100 mb-6 border-b border-amber-800/40 pb-2">Politics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a href="articles/oil-politics.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-amber-500 uppercase">Politics · 20 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">Black Gold & Blackmail: How Oil Redrew the Political Map</h3>
+              <p class="text-sm text-stone-400">From the 1973 embargo to modern energy wars — petroleum as the ultimate instrument of state power.</p>
+            </div>
+          </a>
+          <a href="articles/civil-war-minerals.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-amber-500 uppercase">Politics · 16 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">Iron, Coal & Blood: Minerals That Decided the American Civil War</h3>
+              <p class="text-sm text-stone-400">How industrial capacity and mineral access gave the Union a decisive edge.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+            <!-- Civil Wars -->
+      <section id="civil-wars">
+        <h2 class="text-2xl font-bold text-stone-100 mb-6 border-b border-blue-800/40 pb-2">Civil Wars</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a href="articles/cobalt-congo.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-blue-400 uppercase">Civil Wars · 22 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">The Cobalt Curse: Congo’s Endless Wars and the Battery Boom</h3>
+              <p class="text-sm text-stone-400">The DRC’s cobalt wealth has fueled decades of conflict. As the world races for green energy, the human cost deepens.</p>
+            </div>
+          </a>
+          <a href="articles/blood-diamonds.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-blue-400 uppercase">Civil Wars · 18 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">Blood Diamonds: How Gems Funded Sierra Leone’s Decade of Horror</h3>
+              <p class="text-sm text-stone-400">The RUF’s diamond trade and the international scramble that followed the trail of blood.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Minerals -->
+      <section id="minerals">
+        <h2 class="text-2xl font-bold text-stone-100 mb-6 border-b border-amber-700/40 pb-2">Minerals</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a href="articles/blood-diamonds.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-amber-400 uppercase">Minerals · 18 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">Blood Diamonds</h3>
+              <p class="text-sm text-stone-400">Alluvial diamonds as the perfect rebel currency — portable, untraceable, and devastatingly effective.</p>
+            </div>
+          </a>
+          <a href="articles/cobalt-congo.html" class="block bg-stone-900 rounded-lg overflow-hidden border border-amber-900/20 hover:border-amber-700/40 transition">
+            <div class="p-5">
+              <span class="text-xs text-amber-400 uppercase">Minerals · 22 min</span>
+              <h3 class="text-lg font-semibold text-stone-100 mt-2 mb-2">The Cobalt Curse</h3>
+              <p class="text-sm text-stone-400">Why cobalt has become the new blood mineral of the 21st century.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+    <!-- Footer -->
+  <footer class="border-t border-amber-900/30 bg-stone-900/50 py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-stone-500">
+      <p>© 2026 Chronicles of Power · Open source on GitHub · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

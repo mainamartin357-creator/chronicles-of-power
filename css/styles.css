@@ -1,0 +1,201 @@
+/* Chronicles of Power - Custom Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+4:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --gold: #d4a017;
+  --dark-bg: #0f0a0a;
+  --card-bg: #1a1212;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background-color: var(--dark-bg);
+  color: #f5e6d3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.nav-font {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #d4a017, #f0d060);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Article prose */
+.prose-custom {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #e8d9c5;
+}
+
+.prose-custom h2 {
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f5e6d3;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.prose-custom h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #e8d5a3;
+}
+
+.prose-custom p {
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom blockquote {
+  border-left: 4px solid #d4a017;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #d4c4a8;
+  background: rgba(212, 160, 23, 0.05);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.prose-custom a {
+  color: #d4a017;
+  text-decoration: underline;
+}
+
+.prose-custom a:hover {
+  color: #f0d060;
+}
+/* Badges */
+.badge-politics {
+  background: #3b1f1f;
+  color: #f0c0c0;
+  border: 1px solid #8b3a3a;
+}
+
+.badge-civil-wars {
+  background: #1f2a3b;
+  color: #c0d0f0;
+  border: 1px solid #3a5a8b;
+}
+
+.badge-minerals {
+  background: #3b2f1f;
+  color: #f0e0c0;
+  border: 1px solid #8b6a3a;
+}
+
+/* Hero overlay */
+.hero-overlay {
+  background: linear-gradient(to bottom, rgba(15,10,10,0.3) 0%, rgba(15,10,10,0.7) 50%, rgba(15,10,10,0.95) 100%);
+}
+
+/* Card hover */
+.article-card {
+  transition: all 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a3a2a;
+  border-radius: 4px;
+}
+
+/* Progress bar */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #d4a017, #f0d060);
+  z-index: 100;
+  width: 0%;
+}
+
+/* Selection */
+::selection {
+  background: rgba(212, 160, 23, 0.3);
+  color: #fff;
+}
+/* Badges */
+.badge-politics {
+  background: #3b1f1f;
+  color: #f0c0c0;
+  border: 1px solid #8b3a3a;
+}
+
+.badge-civil-wars {
+  background: #1f2a3b;
+  color: #c0d0f0;
+  border: 1px solid #3a5a8b;
+}
+
+.badge-minerals {
+  background: #3b2f1f;
+  color: #f0e0c0;
+  border: 1px solid #8b6a3a;
+}
+
+/* Hero overlay */
+.hero-overlay {
+  background: linear-gradient(to bottom, rgba(15,10,10,0.3) 0%, rgba(15,10,10,0.7) 50%, rgba(15,10,10,0.95) 100%);
+}
+
+/* Card hover */
+.article-card {
+  transition: all 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a3a2a;
+  border-radius: 4px;
+}
+
+/* Progress bar */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #d4a017, #f0d060);
+  z-index: 100;
+  width: 0%;
+}
+
+/* Selection */
+::selection {
+  background: rgba(212, 160, 23, 0.3);
+  color: #fff;
+}
